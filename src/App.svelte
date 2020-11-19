@@ -24,9 +24,9 @@
   }
 </style>
 
-<main>
-  <h1 class="text-gray-500">Hello {name}!</h1>
-  <p>
+<main class="bg-gradient-to-br from-blue-600 svelte-1e9puaw to-purple-700">
+  <h1>Hello {name}!</h1>
+  <p class="text-pink-100">
     Visit the
     <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
     to learn how to build Svelte apps.
