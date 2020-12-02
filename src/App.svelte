@@ -84,5 +84,15 @@
         {/if}
       </button>
     </div>
+    <div class="space-y-2">
+      <p>
+        This next button demonstrates the use of
+        <span class="highlight">@apply</span>
+        . See
+        <span class="highlight">global.css</span>
+        for examples.
+      </p>
+      <button type="button" class="custom-btn">Custom Button</button>
+    </div>
   </div>
 </main>

@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+.custom-btn {
+    @apply text-2xl px-4 py-2 text-white bg-gradient-to-br from-gray-700 to-black border border-gray-600 rounded-xl shadow;
+}
+
+.highlight {
+    @apply font-mono bg-yellow-200 px-1 rounded-sm;
+}
+
 @tailwind utilities;
