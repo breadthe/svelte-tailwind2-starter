@@ -85,7 +85,7 @@
       </button>
     </div>
     <div class="space-y-2">
-      <p>
+      <p class:text-pink-100={dark} class:text-pink-900={!dark}>
         This next button demonstrates the use of
         <span class="highlight">@apply</span>
         . See

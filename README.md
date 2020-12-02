@@ -6,6 +6,12 @@ It has built-in support for TailwindCSS 2.0, while the bundling is handled by Ro
 
 **Note** At the time of this posting (November 18, 2020), some of the required tools for PostCSS 8.0 haven't been updated yet. In the interim, this template uses the [PostCSS 7.0 compatibility build](https://tailwindcss.com/docs/installation#post-css-7-compatibility-build).
 
+There's also a simple dark/light mode switch 👇
+
+![Light theme](https://user-images.githubusercontent.com/17433578/100824676-436ede00-341c-11eb-895f-c12b5557896e.png)
+
+![Dark theme](https://user-images.githubusercontent.com/17433578/100824711-584b7180-341c-11eb-83ab-84b89460d8b4.png)
+
 ## Get started
 
 Install the dependencies...
