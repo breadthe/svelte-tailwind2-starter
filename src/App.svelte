@@ -12,13 +12,6 @@
     margin: 0 auto;
   }
 
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
   @media (min-width: 640px) {
     main {
       max-width: none;
@@ -35,23 +28,32 @@
   class:from-yellow-200={!dark}
   class:to-pink-300={!dark}>
   <div class="flex flex-col items-center justify-center min-h-screen space-y-4">
-    <h1>Hello {name}!</h1>
+    <h1 class="hello">Hello {name}!</h1>
     <div class:text-pink-100={dark} class:text-pink-900={!dark}>
       Visit the
-      <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
+      <a
+        href="https://svelte.dev/tutorial"
+        class="border-b-4 border-dashed border-opacity-30
+        hover:border-opacity-100"
+        class:border-pink-100={dark}
+        class:border-pink-900={!dark}>
+        Svelte tutorial
+      </a>
       to learn how to build Svelte apps.
     </div>
     <div class="flex items-center">
       <button
         type="button"
         class="flex items-center bg-gradient-to-br px-4 py-2 rounded shadow-sm
-        space-x-2"
+        space-x-2 border-4 border-dashed border-opacity-30"
         class:from-yellow-200={dark}
         class:to-yellow-500={dark}
         class:text-pink-900={dark}
+        class:border-orange-500={dark}
         class:from-blue-500={!dark}
         class:to-blue-800={!dark}
         class:text-pink-100={!dark}
+        class:border-blue-300={!dark}
         on:click={() => (dark = !dark)}>
         {#if dark}
           <svg

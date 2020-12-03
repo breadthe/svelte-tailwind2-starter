@@ -8,9 +8,9 @@ It has built-in support for TailwindCSS 2.0, while the bundling is handled by Ro
 
 There's also a simple dark/light mode switch 👇
 
-![Light theme](https://user-images.githubusercontent.com/17433578/100824676-436ede00-341c-11eb-895f-c12b5557896e.png)
+![Light theme](https://user-images.githubusercontent.com/17433578/100961350-d4f75200-34e7-11eb-8b0a-148fb11cd766.png)
 
-![Dark theme](https://user-images.githubusercontent.com/17433578/100824711-584b7180-341c-11eb-83ab-84b89460d8b4.png)
+![Dark theme](https://user-images.githubusercontent.com/17433578/100961354-d9236f80-34e7-11eb-9f37-3d682bc47255.png)
 
 ## Get started
 
