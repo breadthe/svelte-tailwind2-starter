@@ -31,7 +31,7 @@
   class:to-pink-300={!$dark}>
   <div class="flex flex-col items-center justify-center min-h-screen space-y-8">
     <div class:text-pink-100={$dark} class:text-pink-900={!$dark}>
-      <h1 class="hello">Hello {name}!</h1>
+      <h1 class="hello leading-tight">Hello {name}!</h1>
       Visit the
       <a
         href="https://svelte.dev/tutorial"
