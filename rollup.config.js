@@ -37,7 +37,11 @@ export default {
         file: 'public/build/bundle.js'
     },
     plugins: [
-        postcss({ extract: 'bundle.css', sourceMap: !production }),
+        postcss({
+            extract: 'bundle.css',
+            sourceMap: !production,
+            minimize: production
+        }),
         svelte({
             emitCss: true,
             compilerOptions: {
