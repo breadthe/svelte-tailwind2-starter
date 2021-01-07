@@ -31,7 +31,7 @@ function serve() {
 export default {
     input: 'src/main.js',
     output: {
-        sourcemap: !production,
+        sourcemap: production,
         format: 'iife',
         name: 'app',
         file: 'public/build/bundle.js'
@@ -39,7 +39,7 @@ export default {
     plugins: [
         postcss({
             extract: 'bundle.css',
-            sourceMap: !production,
+            sourceMap: production,
             minimize: production
         }),
         svelte({
