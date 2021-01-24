@@ -9,6 +9,8 @@ module.exports = {
         ],
         options: {
             safelist: [
+                'bg-black',
+                'bg-white',
                 'border-blue-300',
                 'border-orange-500',
                 'border-pink-100',
@@ -17,8 +19,10 @@ module.exports = {
                 'from-blue-500',
                 'from-blue-700',
                 'from-yellow-200',
+                'text-black',
                 'text-pink-100',
                 'text-pink-900',
+                'text-white',
                 'to-blue-800',
                 'to-pink-300',
                 'to-purple-800',
@@ -151,5 +155,7 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography'),
+    ],
 }
