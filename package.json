@@ -8,8 +8,8 @@
         "start": "sirv public"
     },
     "devDependencies": {
-        "@rollup/plugin-commonjs": "^14.0.0",
-        "@rollup/plugin-node-resolve": "^8.0.0",
+        "@rollup/plugin-commonjs": "^17.1.0",
+        "@rollup/plugin-node-resolve": "^11.2.0",
         "autoprefixer": "^10.2.0",
         "postcss": "^8.2.2",
         "postcss-import": "^14",
